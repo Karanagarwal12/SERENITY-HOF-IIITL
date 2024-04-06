@@ -14,10 +14,6 @@ export default function CompanyCollection({ company }) {
     }
     return (
         
-        <Link 
-         href={`/ipo/${company?.address}`}
-        key={company}
-        >
         <div className="collection">
             <div className="collectionName">{company?.name}</div>
             {metadata &&
@@ -32,7 +28,7 @@ export default function CompanyCollection({ company }) {
                 </div>
                 || <div>Loading...</div>
             }
-        </div></Link>
+        </div>
         
     );
 }
