@@ -20,9 +20,9 @@
 ### Contribution:
 We welcome contributions from the community to enhance Project Serenity. Please refer to our contribution guidelines if you're interested in contributing.
 
-Installation:
+### Installation:
 
-To use Shery.js in your project, you can include it in your HTML file via a CDN or import it in js by using node.
+To use our project Serenity , just go through the following steps
 
 When using node or browserify install
 
@@ -32,15 +32,22 @@ npm install i
 
 Setup your env files
 
+1) Create .evn file in your project
+2) Get your client id and secret key from [here](https://thirdweb.com/create-api-key)
+3) Setup in this format
+
+---bash
+NEXT_PUBLIC_TEMPLATE_CLIENT_ID=YOUR_CLIENT_ID
+TW_SECRET_KEY=YOUR_SECRET_KEY
+---
+
 ```bash
 npm run dev
 ```
 
-and require
 
-```javascript
-import Shery from "sheryjs";
-```
+
+
 
 
 
