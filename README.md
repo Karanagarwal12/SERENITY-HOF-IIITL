@@ -36,10 +36,10 @@ Setup your env files
 2) Get your client id and secret key from [here](https://thirdweb.com/create-api-key)
 3) Setup in this format
 
----bash
+```bash
 NEXT_PUBLIC_TEMPLATE_CLIENT_ID=YOUR_CLIENT_ID
 TW_SECRET_KEY=YOUR_SECRET_KEY
----
+```
 
 ```bash
 npm run dev
