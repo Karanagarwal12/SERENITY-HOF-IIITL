@@ -32,7 +32,7 @@ npm install i
 
 Setup your env files
 
-1) Create .evn file in your project
+1) Create .env file in your project
 2) Get your client id and secret key from [here](https://thirdweb.com/create-api-key)
 3) Setup in this format
 
@@ -41,6 +41,7 @@ NEXT_PUBLIC_TEMPLATE_CLIENT_ID=YOUR_CLIENT_ID
 TW_SECRET_KEY=YOUR_SECRET_KEY
 ```
 
+Then run the project
 ```bash
 npm run dev
 ```
